@@ -33,11 +33,11 @@ const categories = [
     name: "Temu",
     icon: "🛒",
   },
-  // {
-  //   id: "banking",
-  //   name: "Banking",
-  //   icon: "🏦",
-  // },
+  {
+    id: "vpn",
+    name: "VPN",
+    icon: "🛡️",
+  },
   // {
   //   id: "investing",
   //   name: "Investing",
@@ -183,6 +183,37 @@ const links = {
       bonus: "Low prices",
       description: "⭐️Click for killer deals and mega savings! ➡️",
       url: "https://temu.to/k/egxs31hvuk4",
+    },
+  ],
+  vpn: [
+    {
+      name: "NordVPN",
+      bonus: "Best VPN",
+      description:
+        "Malware scan for downloads | Alerts about leaked credentials | Tracker and ad blocker | Connection speed: 6730+ Mbps | VPN servers: 7,800+",
+      url: "https://go.nordvpn.net/aff_c?offer_id=15&aff_id=125056",
+      popular: true,
+    },
+    {
+      name: "NordProtect",
+      bonus: "Available to U.S. customers only.",
+      description:
+        "NordProtect makes safeguarding your identity easy with expertly crafted, powerful, and user-friendly security features.",
+      url: "https://go.nordprotect.net/aff_c?offer_id=973&aff_id=125056",
+    },
+    {
+      name: "NordPass Business",
+      bonus: "security and streamline operations  ",
+      description:
+        "Global data centers: Choose between EU/US | Breach Monitoring: Get instant alerts for compromised credentials. | Secure Sharing: Safely share sensitive data within your team.",
+      url: "https://go.nordpass.io/aff_c?offer_id=754&aff_id=125056",
+    },
+    {
+      name: "NordVPN Discord",
+      bonus: "❤️",
+      description:
+        "The best VPN service for online security. Get started risk free",
+      url: "hhttps://go.nordvpn.net/aff_c?offer_id=615&aff_id=125056",
     },
   ],
   // crypto: [
@@ -517,7 +548,7 @@ export default function ReferralPage() {
                           mb: 1,
                         }}
                       >
-                        <Typography variant="h5" fontWeight="600">
+                        <Typography variant="h5" fontWeight="600" color="white">
                           {link.name}
                         </Typography>
                         {link.popular && (
@@ -567,7 +598,7 @@ export default function ReferralPage() {
                             },
                           }}
                         >
-                          Get bonus
+                          Open
                         </Button>
 
                         <IconButton
@@ -606,7 +637,8 @@ export default function ReferralPage() {
               fontStyle: "italic",
             }}
           >
-            * All offers are valid at the time of page update.
+            * All offers are valid at the time of page update. Last update:
+            06-06-2025
           </Typography>
         </motion.div>
       </Container>
