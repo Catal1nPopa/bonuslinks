@@ -28,11 +28,11 @@ const categories = [
     name: "Hosting",
     icon: "🖥️",
   },
-  // {
-  //   id: "crypto",
-  //   name: "Crypto",
-  //   icon: "₿",
-  // },
+  {
+    id: "temu",
+    name: "Temu",
+    icon: "🛒",
+  },
   // {
   //   id: "banking",
   //   name: "Banking",
@@ -155,6 +155,34 @@ const links = {
         "Grow with advanced AI tools and eCommerce features. | 50 Websites | AI website builder | Free Domain | eCommerce Features",
       url: "https://www.hostinger.com/cart?product=hosting%3Ahostinger_business&period=12&referral_type=cart_link&REFERRALCODE=E9JMISTERFH6&referral_id=01974413-938d-717b-8366-577308a64df7&product_type=website-builder",
       popular: true,
+    },
+  ],
+  temu: [
+    {
+      name: "Temu | 90$ Coupon Bundle | new app user",
+      bonus: "💰90$ bonus",
+      description: "⭐️ Bundle Now! Directly get 💰90$ in Temu app.",
+      url: "https://temu.to/k/erdis1ehx5u",
+    },
+    {
+      name: "Temu | Exclusive Deal",
+      bonus: "Low prices",
+      description:
+        "⭐️ Tap the exclusive deal link to score top-quality items at ultra-low prices. 🛍️ These unbeatable deals are only available here. Shop now and save big! ⭐️ Directly get exclusive deal in Temu app.",
+      url: "https://app.temu.com/m/nz8elx65o9l",
+    },
+    {
+      name: "Temu | Save Big",
+      bonus: "Low prices",
+      description:
+        "⭐️ 🌟 Tap into Temu’s treasure trove! Click for killer deals and mega savings! ➡️",
+      url: "https://temu.to/k/erdis1ehx5u",
+    },
+    {
+      name: "Temu | Low prices",
+      bonus: "Low prices",
+      description: "⭐️Click for killer deals and mega savings! ➡️",
+      url: "https://temu.to/k/egxs31hvuk4",
     },
   ],
   // crypto: [
@@ -444,7 +472,7 @@ export default function ReferralPage() {
                   color:
                     activeCategory === category.id
                       ? "red"
-                      : "rgba(255,255,255,0.7)",
+                      : "rgba(255, 255, 255, 0.99)",
                   fontWeight:
                     activeCategory === category.id ? "bold" : "normal",
                   fontSize: isMobile ? "0.8rem" : "1rem",
@@ -539,7 +567,7 @@ export default function ReferralPage() {
                             },
                           }}
                         >
-                          Obține bonus
+                          Get bonus
                         </Button>
 
                         <IconButton
