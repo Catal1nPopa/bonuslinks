@@ -28,26 +28,26 @@ const categories = [
     name: "Hosting",
     icon: "🖥️",
   },
-  {
-    id: "crypto",
-    name: "Crypto",
-    icon: "₿",
-  },
-  {
-    id: "banking",
-    name: "Banking",
-    icon: "🏦",
-  },
-  {
-    id: "investing",
-    name: "Investing",
-    icon: "📈",
-  },
-  {
-    id: "design",
-    name: "Design",
-    icon: "🎨",
-  },
+  // {
+  //   id: "crypto",
+  //   name: "Crypto",
+  //   icon: "₿",
+  // },
+  // {
+  //   id: "banking",
+  //   name: "Banking",
+  //   icon: "🏦",
+  // },
+  // {
+  //   id: "investing",
+  //   name: "Investing",
+  //   icon: "📈",
+  // },
+  // {
+  //   id: "design",
+  //   name: "Design",
+  //   icon: "🎨",
+  // },
 ];
 
 const links = {
@@ -157,71 +157,71 @@ const links = {
       popular: true,
     },
   ],
-  crypto: [
-    {
-      name: "Crypto.com",
-      bonus: "$25 bonus",
-      description: "Obține $25 în CRO la înregistrare.",
-      url: "https://crypto.com/app/example",
-      popular: true,
-    },
-    {
-      name: "Binance",
-      bonus: "Reducere la comisioane",
-      description: "Înregistrează-te și plătești mai puțin la tranzacții.",
-      url: "https://binance.com/en/register?ref=example",
-    },
-    {
-      name: "Coinbase",
-      bonus: "$10 în Bitcoin",
-      description: "Primești $10 în Bitcoin după prima tranzacție de $100.",
-      url: "https://coinbase.com/join/example",
-      popular: true,
-    },
-  ],
-  banking: [
-    {
-      name: "Revolut",
-      bonus: "50 RON bonus",
-      description: "Primești 50 RON după ce faci prima plată.",
-      url: "https://revolut.com/referral/example",
-      popular: true,
-    },
-    {
-      name: "Curve",
-      bonus: "Card cu cashback",
-      description: "Primești £5 după prima tranzacție.",
-      url: "https://www.curve.com/join/example",
-    },
-  ],
-  investing: [
-    {
-      name: "Trading 212",
-      bonus: "Acțiuni gratuite",
-      description: "Primești o acțiune gratuită la cont nou.",
-      url: "https://www.trading212.com/invite/example",
-    },
-    {
-      name: "eToro",
-      bonus: "$50 la primul depozit",
-      description: "Primești $50 când depui $200.",
-      url: "https://www.etoro.com/join/example",
-    },
-  ],
-  design: [
-    {
-      name: "Canva Pro",
-      bonus: "30 zile gratis",
-      description: "30 de zile de Canva Pro gratuit.",
-      url: "https://www.canva.com/join/example",
-    },
-    {
-      name: "Figma Pro",
-      bonus: "3 luni gratis",
-      description: "3 luni de Figma Professional.",
-      url: "https://www.figma.com/join/example",
-    },
-  ],
+  // crypto: [
+  //   {
+  //     name: "Crypto.com",
+  //     bonus: "$25 bonus",
+  //     description: "Obține $25 în CRO la înregistrare.",
+  //     url: "https://crypto.com/app/example",
+  //     popular: true,
+  //   },
+  //   {
+  //     name: "Binance",
+  //     bonus: "Reducere la comisioane",
+  //     description: "Înregistrează-te și plătești mai puțin la tranzacții.",
+  //     url: "https://binance.com/en/register?ref=example",
+  //   },
+  //   {
+  //     name: "Coinbase",
+  //     bonus: "$10 în Bitcoin",
+  //     description: "Primești $10 în Bitcoin după prima tranzacție de $100.",
+  //     url: "https://coinbase.com/join/example",
+  //     popular: true,
+  //   },
+  // ],
+  // banking: [
+  //   {
+  //     name: "Revolut",
+  //     bonus: "50 RON bonus",
+  //     description: "Primești 50 RON după ce faci prima plată.",
+  //     url: "https://revolut.com/referral/example",
+  //     popular: true,
+  //   },
+  //   {
+  //     name: "Curve",
+  //     bonus: "Card cu cashback",
+  //     description: "Primești £5 după prima tranzacție.",
+  //     url: "https://www.curve.com/join/example",
+  //   },
+  // ],
+  // investing: [
+  //   {
+  //     name: "Trading 212",
+  //     bonus: "Acțiuni gratuite",
+  //     description: "Primești o acțiune gratuită la cont nou.",
+  //     url: "https://www.trading212.com/invite/example",
+  //   },
+  //   {
+  //     name: "eToro",
+  //     bonus: "$50 la primul depozit",
+  //     description: "Primești $50 când depui $200.",
+  //     url: "https://www.etoro.com/join/example",
+  //   },
+  // ],
+  // design: [
+  //   {
+  //     name: "Canva Pro",
+  //     bonus: "30 zile gratis",
+  //     description: "30 de zile de Canva Pro gratuit.",
+  //     url: "https://www.canva.com/join/example",
+  //   },
+  //   {
+  //     name: "Figma Pro",
+  //     bonus: "3 luni gratis",
+  //     description: "3 luni de Figma Professional.",
+  //     url: "https://www.figma.com/join/example",
+  //   },
+  // ],
 };
 
 const container = {

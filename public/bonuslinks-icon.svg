@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="24" fill="#4F46E5"/>
+  <g fill="white">
+    <path d="M45 60c0-4.418 3.582-8 8-8h10a2 2 0 1 0 0-4H53c-6.627 0-12 5.373-12 12s5.373 12 12 12h10a2 2 0 1 0 0-4H53c-4.418 0-8-3.582-8-8z"/>
+    <path d="M75 52c4.418 0 8 3.582 8 8s-3.582 8-8 8h-10a2 2 0 1 0 0 4h10c6.627 0 12-5.373 12-12s-5.373-12-12-12h-10a2 2 0 1 0 0 4h10z"/>
+  </g>
+  <text x="60" y="108" font-size="12" font-family="Arial, sans-serif" fill="#ffffff" text-anchor="middle">
+    BonusLinks
+  </text>
+</svg>
