@@ -21,6 +21,7 @@ import {
 import { motion } from "framer-motion";
 import { ContentCopy, ArrowForward, Star } from "@mui/icons-material";
 import { ArrowBackIos, ArrowForwardIos } from "@mui/icons-material";
+import "./referralpage.scss";
 
 const categories = [
   {
@@ -37,6 +38,11 @@ const categories = [
     id: "vpn",
     name: "VPN",
     icon: "🛡️",
+  },
+  {
+    id: "joom",
+    name: "Joom",
+    icon: "🫨",
   },
   // {
   //   id: "investing",
@@ -213,7 +219,17 @@ const links = {
       bonus: "❤️",
       description:
         "The best VPN service for online security. Get started risk free",
-      url: "hhttps://go.nordvpn.net/aff_c?offer_id=615&aff_id=125056",
+      url: "https://go.nordvpn.net/aff_c?offer_id=615&aff_id=125056",
+    },
+  ],
+  joom: [
+    {
+      name: "Joom",
+      bonus: "-5$ for first purchase",
+      description:
+        "Products at low prices that your city's stores cannot offer, and free shipping!",
+      url: "https://br2m3.app.goo.gl/JUVVyYodumDhodHaA",
+      popular: true,
     },
   ],
   // crypto: [
@@ -459,7 +475,7 @@ export default function ReferralPage() {
                   backgroundColor: "rgba(0,0,0,0.3)",
                   color: "white",
                   "&:hover": {
-                    backgroundColor: "rgba(255,255,255,0.2)",
+                    backgroundColor: "rgba(238, 0, 0, 0.2)",
                   },
                 }}
               >
