@@ -654,7 +654,7 @@ export default function ReferralPage() {
             }}
           >
             * All offers are valid at the time of page update. Last update:
-            06-06-2025
+            07-06-2025
           </Typography>
         </motion.div>
       </Container>
@@ -663,7 +663,7 @@ export default function ReferralPage() {
         open={openSnackbar}
         autoHideDuration={3000}
         onClose={handleCloseSnackbar}
-        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+        anchorOrigin={{ vertical: "top", horizontal: "center" }}
       >
         <Alert
           onClose={handleCloseSnackbar}
